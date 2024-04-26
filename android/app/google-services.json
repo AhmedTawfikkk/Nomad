@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797297990117",
+    "project_id": "softwarenomad-80e70",
+    "storage_bucket": "softwarenomad-80e70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797297990117:android:0362435e7e2249157db70c",
+        "android_client_info": {
+          "package_name": "com.example.softwareengineering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4SQO-qnIkM5bJatwRhvi8_G1KkH13bwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
