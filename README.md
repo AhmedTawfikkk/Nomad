@@ -2,15 +2,22 @@
 
 A new Flutter project.
 
-## Getting Started
+## Abstarct
 
-This project is a starting point for a Flutter application.
+Nomad is a travelling application built using Flutter. It helps you find hotels and flights. You can also give feedback about your experiences with intuitive interface that makes it easy for users to navigate through different features. 
 
-A few resources to get you started if this is your first Flutter project:
+## Logo
+![image](images/nomad.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Author
+[Eman Yaser](https://github.com/Eman92003)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Ahmed Ashraf](https://github.com/Ghost301333)
+
+[Ahmed Daif](https://github.com/Ahmed-Daif)
+
+[Ahmed Galal]()
+
+[Ahmed Tawfik]()
+
+[Ahmed Tarek](https://github.com/AhmedTarek1967)
