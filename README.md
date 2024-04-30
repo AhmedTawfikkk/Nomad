@@ -16,8 +16,8 @@ Nomad is a travelling application built using Flutter. It helps you find hotels 
 
 [Ahmed Daif](https://github.com/Ahmed-Daif)
 
-[Ahmed Galal]()
+[Ahmed Galal](https://github.com/ahmedgalal-22)
 
-[Ahmed Tawfik]()
+[Ahmed Tawfik](https://github.com/AhmedTawfikkk)
 
 [Ahmed Tarek](https://github.com/AhmedTarek1967)
