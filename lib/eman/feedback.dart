@@ -98,7 +98,7 @@ class _Feed_backState extends State<Feed_back> {
                       controller: _feedBack,
                       suffixIcon: InkWell(
                         onTap: () async {
-                          Navigator.pushNamed(context, Home.routeName);
+                          Navigator.pushNamed(context, BottomNavBar.routeName);
                           await send_feedback();
                         },
                         child: const Icon(Icons.send_rounded,
