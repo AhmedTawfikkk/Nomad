@@ -1,4 +1,4 @@
-# softwareengineering
+# Software Engineering
 
 A new Flutter project.
 
@@ -8,6 +8,9 @@ Nomad is a travelling application built using Flutter. It helps you find hotels 
 
 ## Logo
 ![image](images/nomad.png)
+
+## UI/UX
+https://www.figma.com/file/No7ZGGS7JfB0F3Gb5RnLe6/Untitled
 
 ## Author
 [Eman Yaser](https://github.com/Eman92003)
