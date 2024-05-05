@@ -128,6 +128,12 @@ class _roundFlightState extends State<roundFlight> {
                                           prefixIcon: const Icon(Icons.calendar_month_outlined,
                                             size: 30,color:
                                             Color(0xffe46409),),
+                                          validator: (value) {
+                                            if (value == null || value.trim().isEmpty) {
+                                              return "أدخل تاريخ المغادرة";
+                                            }
+                                            return null;
+                                          },
                                           labelText: "تاريخ المغادرة",
                                           readOnly: false,
                                         )
@@ -143,6 +149,12 @@ class _roundFlightState extends State<roundFlight> {
                                           prefixIcon: const Icon(Icons.calendar_month_outlined,
                                             size: 30,color:
                                             Color(0xffe46409),),
+                                          validator: (value) {
+                                            if (value == null || value.trim().isEmpty) {
+                                              return "أدخل تاريخ العودة";
+                                            }
+                                            return null;
+                                          },
                                           labelText: "تاريخ العودة",
                                           readOnly: false,
                                         ))
@@ -207,7 +219,12 @@ class _roundFlightState extends State<roundFlight> {
                                 child: CustomElevatedButton(
                                     text: "بحث عن الرحلات",
                                     backgroundColor: Color(0xffe46409),
-                                    onPressed:(){Navigator.pushNamed(context, flightReservation.routeName);}),
+                                    onPressed:(){
+                                      if (formKey.currentState!.validate()){
+                                        Navigator.pushNamed(context, flightReservation.routeName);
+                                      }
+                                    }
+                                ),
                               )
                             ],//column children
                           ),
