@@ -90,6 +90,12 @@ class _TTState extends State<TT> {
                                             controller: arrivalDate,
                                             prefixIcon: const Icon(Icons.calendar_month_outlined,
                                               size: 30,),
+                                            validator: (value) {
+                                              if (value == null || value.trim().isEmpty) {
+                                                return "أدخل تاريخ الوصول";
+                                              }
+                                              return null;
+                                            },
                                             labelText: "تاريخ الوصول",
                                             readOnly: false,
                                           )
@@ -102,6 +108,12 @@ class _TTState extends State<TT> {
                                           controller: departureDate,
                                           prefixIcon: const Icon(Icons.calendar_month_outlined,
                                             size: 30,),
+                                          validator: (value) {
+                                            if (value == null || value.trim().isEmpty) {
+                                              return "أدخل تاريخ المغادرة";
+                                            }
+                                            return null;
+                                          },
                                           labelText: "تاريخ المغادرة",
                                           readOnly: false,
                                         ))
@@ -163,7 +175,9 @@ class _TTState extends State<TT> {
                                     text: "بحث عن فندق",
                                     backgroundColor: Color(0xffe46409),
                                     onPressed:(){
-                                      Navigator.pushNamed(context, hotelReservation.routeName);
+                                      if(formKey.currentState!.validate()){
+                                        Navigator.pushNamed(context, hotelReservation.routeName);
+                                      }
                                     }),
                               )
                             ],
