@@ -80,26 +80,23 @@ class _TTState extends State<TT> {
                               ),
 
                               const SizedBox(height:30),
-
-                              Padding(
-                                padding: const EdgeInsets.only(right: 7),
-                                child: Row(
-                                    children: [
-                                      Expanded(
-                                          child: CustomTextFormField(
-                                            controller: arrivalDate,
-                                            prefixIcon: const Icon(Icons.calendar_month_outlined,
-                                              size: 30,),
-                                            validator: (value) {
-                                              if (value == null || value.trim().isEmpty) {
-                                                return "أدخل تاريخ الوصول";
-                                              }
-                                              return null;
+                              Row(
+                                  children: [
+                                    Expanded(
+                                        child: CustomTextFormField(
+                                          controller: arrivalDate,
+                                          prefixIcon: const Icon(Icons.calendar_month_outlined,
+                                            size: 30,),
+                                          validator: (value) {
+                                            if (value == null || value.trim().isEmpty) {
+                                              return "أدخل تاريخ الوصول";
+                                            }
+                                            return null;
                                             },
-                                            labelText: "تاريخ الوصول",
-                                            readOnly: false,
-                                          )
-                                      ),
+                                          labelText: "تاريخ الوصول",
+                                          readOnly: false,
+                                        )
+                                    ),
 
                                       const SizedBox(width: 20,),
 
@@ -119,7 +116,6 @@ class _TTState extends State<TT> {
                                         ))
                                     ]
                                 ),
-                              ),
 
 
                               const SizedBox(height: 30,),
